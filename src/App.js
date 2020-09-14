@@ -59,6 +59,9 @@ function App() {
 
   return (
     <div className="app">
+      <div className="heading">
+        Todo app by using React-Hooks.
+    </div>
       <div className="todo-list">
         {todos.map((todo, index) => (
           <Todo
