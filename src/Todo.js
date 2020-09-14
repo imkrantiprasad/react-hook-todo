@@ -9,8 +9,8 @@ export default function Todo({ todo, index, completeTodo, removeTodo }) {
             {todo.text}
 
             <div>
-                <button className="btn" onClick={() => completeTodo(index)}>Complete</button>
-                <button className="btn" onClick={() => removeTodo(index)}>x</button>
+                <button className="btn mark-btn" onClick={() => completeTodo(index)}>{todo.isCompleted ? `Unmark` : `Mark`}</button>
+                <button className="btn delete-btn" onClick={() => removeTodo(index)}>x</button>
             </div>
         </div>
     );
