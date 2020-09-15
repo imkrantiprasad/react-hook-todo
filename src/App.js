@@ -2,28 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Footer from './Footer';
 import Todo from './Todo';
-
-function TodoForm({ addTodo }) {
-  const [value, setValue] = useState("");
-
-  const handleSubmit = e => {
-    e.preventDefault();
-    if (!value) return;
-    addTodo(value);
-    setValue("");
-  };
-
-  return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        className="input"
-        value={value}
-        onChange={e => setValue(e.target.value)}
-      />
-    </form>
-  );
-}
+import TodoForm from './TodoForm';
 
 function App() {
   const [todos, setTodos] = useState([
@@ -75,7 +54,7 @@ function App() {
         ))}
         <TodoForm addTodo={addTodo} />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
