@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import Footer from './Footer';
 import Todo from './Todo';
 
 function TodoForm({ addTodo }) {
@@ -74,6 +75,7 @@ function App() {
         ))}
         <TodoForm addTodo={addTodo} />
       </div>
+      <Footer/>
     </div>
   );
 }
