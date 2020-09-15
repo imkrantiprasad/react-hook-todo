@@ -7,15 +7,15 @@ import TodoForm from './TodoForm';
 function App() {
   const [todos, setTodos] = useState([
     {
-      text: "Learn about React",
+      text: "Learn firebase",
       isCompleted: false
     },
     {
-      text: "Meet friend for lunch",
+      text: "Walk in evening",
       isCompleted: false
     },
     {
-      text: "Build really cool todo app",
+      text: "Class assignment",
       isCompleted: false
     }
   ]);
