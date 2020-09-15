@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-hook-todo/static/css/main.81f3de55.chunk.css",
-    "main.js": "/react-hook-todo/static/js/main.7d8519cd.chunk.js",
-    "main.js.map": "/react-hook-todo/static/js/main.7d8519cd.chunk.js.map",
+    "main.js": "/react-hook-todo/static/js/main.f52bfd2b.chunk.js",
+    "main.js.map": "/react-hook-todo/static/js/main.f52bfd2b.chunk.js.map",
     "runtime-main.js": "/react-hook-todo/static/js/runtime-main.fb13a24c.js",
     "runtime-main.js.map": "/react-hook-todo/static/js/runtime-main.fb13a24c.js.map",
     "static/js/2.164fee29.chunk.js": "/react-hook-todo/static/js/2.164fee29.chunk.js",
     "static/js/2.164fee29.chunk.js.map": "/react-hook-todo/static/js/2.164fee29.chunk.js.map",
     "index.html": "/react-hook-todo/index.html",
-    "precache-manifest.7624d2115a0cdca592c326d3d96addc2.js": "/react-hook-todo/precache-manifest.7624d2115a0cdca592c326d3d96addc2.js",
+    "precache-manifest.e986b4f0ce2e1abc3dd7f6e6ea2aa3d1.js": "/react-hook-todo/precache-manifest.e986b4f0ce2e1abc3dd7f6e6ea2aa3d1.js",
     "service-worker.js": "/react-hook-todo/service-worker.js",
     "static/css/main.81f3de55.chunk.css.map": "/react-hook-todo/static/css/main.81f3de55.chunk.css.map",
     "static/js/2.164fee29.chunk.js.LICENSE.txt": "/react-hook-todo/static/js/2.164fee29.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fb13a24c.js",
     "static/js/2.164fee29.chunk.js",
     "static/css/main.81f3de55.chunk.css",
-    "static/js/main.7d8519cd.chunk.js"
+    "static/js/main.f52bfd2b.chunk.js"
   ]
 }
