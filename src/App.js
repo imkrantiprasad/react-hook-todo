@@ -52,7 +52,7 @@ function App() {
   return (
     <div className={darkMode ? "app dark-mode" : "app light-mode"} >
       <div className="heading">
-        Todo app by using React-Hooks.
+        Kranti's Todo App.
     </div>
       <DarkModeToggle
         onChange={() => setDarkMode(!darkMode)}
