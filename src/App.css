@@ -109,6 +109,11 @@
   /* color: white; */
 }
 
+.heart {
+  color: red;
+  font-size: 22px;
+}
+
 @media screen and (max-width: 768px) {
   .app {
     padding: 10px 0;
