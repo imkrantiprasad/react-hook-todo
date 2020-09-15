@@ -58,6 +58,22 @@
   margin: 5px 2px !important;
 }
 
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus,
+.input:focus,
+.input:active:focus,
+.input.active:focus,
+.input.focus,
+.input:active.focus,
+.input.active.focus {
+  outline: none !important;
+  outline: 0 !important;
+}
+
 .mark-btn {
   width: 100px !important;
 }
