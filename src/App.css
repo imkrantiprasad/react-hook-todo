@@ -34,7 +34,7 @@
 .todo-list {
   background: #e8e8e8;
   border-radius: 4px;
-  padding: 5px;
+  padding: 0.75rem;
   max-width: 60%;
   margin-left: 20% !important;
 }
@@ -60,7 +60,6 @@
   border: 1px solid black;
   /* border: none; */
   width: 70%;
-  margin-left: 15%;
 }
 
 .btn {
@@ -74,6 +73,10 @@
   margin: 0 !important;
   margin: 5px 2px !important;
   cursor: pointer;
+}
+
+.btn:hover{
+  opacity: 0.7;
 }
 
 .btn:focus,
@@ -112,6 +115,10 @@
 .heart {
   color: red;
   font-size: 22px;
+}
+
+.error-message {
+  color: red
 }
 
 @media screen and (max-width: 768px) {
