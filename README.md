@@ -8,3 +8,4 @@
 ### Note: This repo is open for hacktoberfest challenges (please be creative).
 <br />
 Please add some valuable code to this repo.
+Contributions should be meaningful.
