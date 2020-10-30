@@ -101,8 +101,18 @@
   transition: 0.2s linear;
 }
 
+.edit-btn {
+  color: white;
+  background-color:white;
+  transition: 0.2s linear;
+}
+
 .todo:hover .delete-btn{
   background-color:#e74c3c;
+}
+
+.todo:hover .edit-btn{
+  background-color: #f0ad4e;
 }
 
 .footer {

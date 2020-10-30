@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Todo({ todo, index, completeTodo, removeTodo }) {
+export default function Todo({ todo, index, completeTodo, removeTodo, editTodo }) {
     return (
         <div onClick={() => completeTodo(index)}
             className="todo"
@@ -9,6 +9,7 @@ export default function Todo({ todo, index, completeTodo, removeTodo }) {
             {todo.text}
 
             <div>
+                <button className="btn edit-btn" onClick={(event) => { event.stopPropagation(); editTodo(index) }}>Edit </button>
                 <button className="btn delete-btn" onClick={(event) => { event.stopPropagation(); removeTodo(index) }}>x</button>
             </div>
         </div>

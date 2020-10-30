@@ -49,6 +49,16 @@ function App() {
     setTodos(newTodos);
   };
 
+  const editTodo = index => {
+    let newTodos = [...todos]
+    let updateTodo = prompt("Update your todo", newTodos[index].text)
+    if (updateTodo.length > 0) {
+      newTodos[index].text = updateTodo
+      setTodos(newTodos)
+    } else return;
+  }
+
+
   return (
     <div className={darkMode ? "app dark-mode" : "app light-mode"} >
       <div className="heading">
@@ -68,6 +78,7 @@ function App() {
             todo={todo}
             completeTodo={completeTodo}
             removeTodo={removeTodo}
+            editTodo={editTodo}
           />
         ))}
         <TodoForm addTodo={addTodo} />
