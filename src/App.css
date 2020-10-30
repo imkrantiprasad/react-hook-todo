@@ -69,7 +69,6 @@
   font-size: 16px;
   border-radius: 4px;
   color: white;
-  background-color: black !important;
   margin: 0 !important;
   margin: 5px 2px !important;
   cursor: pointer;
@@ -95,12 +94,15 @@
   outline: 0 !important;
 }
 
-.mark-btn {
-  width: 100px !important;
-}
-
 .delete-btn {
   border-radius: 50px;
+  color: white;
+  background-color:white;
+  transition: 0.2s linear;
+}
+
+.todo:hover .delete-btn{
+  background-color:#e74c3c;
 }
 
 .footer {
@@ -146,10 +148,5 @@
     padding: 2px 8px;
     /* margin: 0 !important; */
     margin: 2px 2px !important;
-  }
-
-  .mark-btn {
-    width: 70px !important;
-    padding: 2px 0;
   }
 }
